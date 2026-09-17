@@ -1,21 +1,7 @@
-# Diário do Trabalho
+# O que esperavam antes de medir; o que deu errado
 
-## Antes dos testes
+Antes de realizar os testes, esperei que o **Insertion Sort** tivesse um aumento maior no tempo conforme o tamanho dos vetores aumentasse, principalmente com dados aleatórios. Também esperávamos que o **Merge Sort** apresentasse um crescimento mais estável.
 
-Antes de começar os testes, eu esperava que o **Insertion Sort** fosse mais lento com vetores maiores, principalmente com dados aleatórios, por ter complexidade O(n²).
+Durante a execução, tivemos um problema porque as pastas **dados** e **graficos** ainda não existiam. Por isso, o programa apresentou um erro ao tentar salvar os resultados. Depois de criar as pastas, executamos novamente e o programa funcionou normalmente.
 
-Também esperava que o **Merge Sort** apresentasse um crescimento mais estável, por ter complexidade O(n log n).
-
-## Durante os testes
-
-Foram realizados testes com vetores de 1.000 até 16.000 elementos, usando dados aleatórios e ordenados.
-
-No início, ocorreu um erro porque as pastas `dados` e `graficos` ainda não existiam. Depois de criar as pastas, o programa conseguiu salvar os resultados e gerar o gráfico normalmente.
-
-## Depois dos testes
-
-Os resultados confirmaram o que era esperado. O **Insertion Sort** teve um aumento grande de tempo com dados aleatórios, enquanto com dados ordenados foi bem mais rápido.
-
-O **Merge Sort** apresentou tempos mais estáveis nos dois tipos de entrada.
-
-Os resultados foram salvos no arquivo `tempos.csv` e o gráfico foi gerado na pasta `graficos`.
+Após os testes, os resultados ficaram próximos do que esperávamos. O Insertion Sort apresentou maior aumento de tempo com dados aleatórios, enquanto o Merge Sort teve um comportamento mais estável.
