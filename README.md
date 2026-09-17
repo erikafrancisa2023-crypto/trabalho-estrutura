@@ -1,4 +1,3 @@
-# Comparação entre Insertion Sort e Merge Sort
 
 # Comparação entre Insertion Sort e Merge Sort
 
