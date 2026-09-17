@@ -16,7 +16,7 @@ python src/comparacao.py
 
 O programa realiza os testes, calcula os tempos, salva os resultados e gera o gráfico.
 
-    tempos.csv
- graficos
-     comparacao.png
+tempos.csv
+graficos
+comparacao.png
 
