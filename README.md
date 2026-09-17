@@ -16,15 +16,11 @@ Os testes foram feitos com dados **aleatórios** e **ordenados**. Cada teste foi
 
 Os tempos dos testes foram salvos em:
 
-```text
 dados/tempos.csv
-```
 
 O gráfico da comparação está em:
 
-```text
 graficos/comparacao.png
-```
 
 Nos testes, o **Insertion Sort** apresentou um aumento maior de tempo com dados aleatórios. Já com os dados ordenados, seu tempo foi bem menor.
 
