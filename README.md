@@ -2,7 +2,7 @@
 
 Neste trabalho foi feita uma comparação entre os algoritmos **Insertion Sort** e **Merge Sort**.
 
-Foram realizados testes com vetores de:
+Foram testados vetores de:
 
 * 1.000
 * 2.000
@@ -16,12 +16,15 @@ Os testes foram feitos com dados **aleatórios** e **ordenados**. Cada teste foi
 
 Os tempos dos testes foram salvos em:
 
+```text
 dados/tempos.csv
+```
 
 O gráfico da comparação está em:
 
+```text
 graficos/comparacao.png
-
+```
 
 Nos testes, o **Insertion Sort** apresentou um aumento maior de tempo com dados aleatórios. Já com os dados ordenados, seu tempo foi bem menor.
 
@@ -31,20 +34,22 @@ O **Merge Sort** apresentou um crescimento mais estável nos dois tipos de entra
 
 Na pasta do projeto, execute:
 
-bash python src/comparacao.py
-
+```bash
+python src/comparacao.py
+```
 
 O programa realiza os testes, salva os tempos no CSV e gera o gráfico.
 
 ## Estrutura
 
-text
+```text
 trabalho estrutura/
- README.md
- DIARIO.md
- src/
-    comparacao.py
- dados/
-    tempos.csv
- graficos/
-     comparacao.png
+├── README.md
+├── DIARIO.md
+├── src/
+│   └── comparacao.py
+├── dados/
+│   └── tempos.csv
+└── graficos/
+    └── comparacao.png
+```
