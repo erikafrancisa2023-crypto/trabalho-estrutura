@@ -6,7 +6,7 @@ Neste trabalho investigamos o desempenho dos algoritmos **Insertion Sort** e **M
 
 Nos resultados, percebemos que o **Insertion Sort** ficou bem mais lento conforme o tamanho do vetor aumentou, principalmente com dados aleatórios. Já com os dados ordenados, apresentou tempos bem menores. O **Merge Sort** apresentou um crescimento mais estável nos dois tipos de entrada.
 
-Os resultados foram salvos em `dados/tempos.csv` e o gráfico foi gerado em `graficos/comparacao.png`.
+Os resultados foram salvos em dados/tempos.csv e o gráfico foi gerado em graficos/comparacao.png.
 
 **Para executar o programa, basta abrir a pasta do projeto e executar:**
 
