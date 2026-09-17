@@ -14,11 +14,11 @@ Os testes foram feitos com dados **aleatórios** e **ordenados**. Cada teste foi
 
 ## Resultados
 
-Os tempos dos testes foram salvos em:
+**Os tempos dos testes foram salvos em:**
 
 dados/tempos.csv
 
-O gráfico da comparação está em:
+**O gráfico da comparação está em:**
 
 graficos/comparacao.png
 
