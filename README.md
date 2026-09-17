@@ -1,7 +1,5 @@
 # Comparação entre Insertion Sort e Merge Sort
 
-## Sobre o trabalho
-
 Neste trabalho foi feita uma comparação entre os algoritmos **Insertion Sort** e **Merge Sort**.
 
 Foram realizados testes com vetores de:
